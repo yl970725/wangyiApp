@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册--网易云阅读</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="rg-header">
+        <a href="" class="rg-logo">
+            <h1></h1>
+        </a>
+        <span class="rg-login">已有账号?去<a href="">登录</a></span>
+    </header>
+    <section class="rg-register">
+        <div class="register-header">
+            <h2>普通账户注册</h2> <a href="">靓号注册</a>
+        </div>
+        <div class="register-frame">
+            <form onsubmit="return false">
+                <!-- 用户名 -->
+                <div>
+                    <label for="username">用户名：</label>
+                    <input type="text" name="username" placeholder="请输入由大小英文及下划线组成的用户名">
+                    <span></span>
+                </div>
+                <!-- 姓名 -->
+                <div>
+                    <label for="name">姓名：</label>
+                    <input type="text" name="name" placeholder="必须由中文构成">
+                    <span></span>
+                </div>
+                <!-- 邮箱 -->
+                <div>
+                    <label for="email">邮箱：</label>
+                    <input type="text " name="email" placeholder="请输入正确的邮箱格式">
+                    <span></span>
+                </div>
+                <!-- 手机号码 -->
+                <div>
+                    <label for="telephone">手机：</label>
+                    <input type="text " name="telephone" placeholder="请输入正确的手机格式">
+                    <span></span>
+                </div>
+                <!-- 年龄 -->
+                <div>
+                    <label for="age">年龄：</label>
+                    <input type="text " name="age" placeholder="必须为整数为12-50之间的正确数字，">
+                    <span></span>
+                </div>
+
+                <!-- 密码 -->
+                <div>
+                    <label for="password">密码：</label>
+                    <input type="password" name="password" placeholder="请必须含有大小写数字的密码">
+                    <span></span>
+                </div>
+                <!-- 再次确认密码 -->
+                <div>
+                    <label for="repassword">确认密码：</label>
+                    <input type="password" name="repassword" placeholder="请重新确认密码">
+                    <span></span>
+                </div>
+                <!-- 性别 -->
+                <div>
+                    <label for="sex">性别：</label>
+                    <select name="sex" id="sex">
+                        <option>男</option>
+                        <option>女</option>
+                        <option>保密</option>
+                    </select>
+                </div>
+                <!-- 验证码 -->
+                <div>
+                    <label for="">验证码:</label>
+                    <div id="random-register"></div>
+                    <span class="get-random">点击获取新验证码</span>
+                </div>
+                <div>
+                    <label for="">请输入验证码:</label>
+                    <input type="text" name="" placeholder="请输入正确验证码">
+                    <span></span>
+                </div>
+                <div>
+                    <label for=""></label>
+                    <button type="submit">注册</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src='js/register.js'></script>
+</body>
+<script>
+    register.init();
+    document.oncontextmenu = new Function("event.returnValue=false");
+    document.onselectstart = new Function("event.returnValue=false");  
+</script>
+
+</html>

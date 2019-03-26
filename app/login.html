@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录--网易云阅读</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <header class="lg-hd">
+        <div id="lg-header">
+            <div class="lg-header-inner">
+                <h1 class="lg-login-box">
+                    <li class="lg-login"></li>
+                </h1>
+                <a class="link link1" href="">首页</a>
+                <a class="link link2" href="javascript:;">客户端下载</a>
+            </div>
+        </div>
+    </header>
+    <section class="lg-ban">
+        <div id="lg-banner">
+            <div id='lg-frame'>
+                <div class="lg-frame-header">
+                    <h2 class="lg-frame-logo">
+                        网易账户登录
+                    </h2>
+                </div>
+                <div class="lg-frame-content">
+                    <div id="lg-content-left">
+                        <form action="" onsubmit="return false">
+                            <!-- 用户名 -->
+                            <div>
+                                <input class="changeInp" type="text " name="username" placeholder="请输入仅由大小英文及下划线组成的用户名">
+                            </div>
+                            <!-- 密码 -->
+                            <div>
+                                <input id="password" type="password " name="password" placeholder="请输入6-18位密码,区分大小写">
+                            </div>
+                            <button id="lg-btn">登　录</button>
+                        </form>
+                        <span class="login-sucess"></span>
+                        <div class="register-href">忘记账号?<a href="">去注册</a></div>
+                        
+                    </div>
+                    <div class="lg-content-right">
+                        <h3>其他账号登录:</h3>
+                        <ul>
+                            <li class="sj">
+                                <a href="javascript:;">
+                                    <span></span>
+                                    <div class='sjname'>手机号</div>
+                                </a>
+                            </li>
+                            <li class="weibo">
+                                <a href="javascript:;">
+                                    <span></span>
+                                    <div>新浪微博</div>
+                                </a>
+                            </li>
+                            <li class="weixin">
+                                <a href="javascript:;">
+                                    <span></span>
+                                    <div>微信</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- 微信,微博 -->
+    <div class="login-box">
+        <div class="box-title">微信登录</div>
+        <div class="box-img">
+            <img class="login-img" src="images/weixin.jpg" alt="">
+        </div>
+        <div class="box-tip">
+            <p class="box-tipone">请使用微信扫描二维码</p>
+            <p>网易云阅读</p>
+        </div>
+    </div>
+    <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+        login.init();
+    </script>
+</body>
+
+</html>
