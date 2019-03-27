@@ -38,10 +38,10 @@ var login = (function () {
                         data = JSON.parse(data);
                         if (data.code == '0') {     
                             $('.login-sucess').html(data.message)                      
-                            //location.href = "../login.html";
+                            //location.href = "login.html";
                         } else if (data.code == "200") {
                             document.cookie = `id=${data.id}; path=/`;
-                            location.href = "../index.html";
+                            location.href = "index.html";
                         }
                     })
                 }
@@ -54,11 +54,11 @@ var login = (function () {
                         data = JSON.parse(data);
                         if (data.code == '0') {
                             $('.login-sucess').html(data.message)
-                            //location.href = "../login.html";
+                            //location.href = "login.html";
 
                         } else if (data.code == "200") {  
                             document.cookie = `id=${data.id}; path=/`;
-                            location.href = "../index.html";
+                            location.href = "index.html";
                         }
                     })
                 }

@@ -135,10 +135,10 @@ var register = (function () {
                         data = JSON.parse(data);
                         if(data.code=="0"){
                             alert('由于网络原因,注册失败...')
-                            location.href="../register.html"
+                            location.href="register.html"
                         }else if(data.code=='200'){ 
                             // alert('所有表单验证成功');
-                            // location.href="../login.html"
+                            // location.href="login.html"
                            $('#linkHref-box').css("display","block");
                           
                            
@@ -147,10 +147,10 @@ var register = (function () {
               
             })
             $('#linkHref').on('click','.btn-link-login',function(){
-                location.href="../login.html"
+                location.href="login.html"
             })
             $(".btn-link-register").on('click',function(){
-                location.href="../register.html"
+                location.href="register.html"
             })
 
         }
