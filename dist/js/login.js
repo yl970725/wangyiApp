@@ -40,7 +40,7 @@ var login = (function () {
                             $('.login-sucess').html(data.message)                      
                             //location.href = "login.html";
                         } else if (data.code == "200") {
-                            document.cookie = `id=${data.id}; path=/`;
+                            document.cookie = `username=${data.username}; path=/`;
                             location.href = "index.html";
                         }
                     })
@@ -57,7 +57,7 @@ var login = (function () {
                             //location.href = "login.html";
 
                         } else if (data.code == "200") {  
-                            document.cookie = `id=${data.id}; path=/`;
+                            document.cookie = `username=${data.username}; path=/`; 
                             location.href = "index.html";
                         }
                     })

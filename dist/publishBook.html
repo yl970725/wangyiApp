@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link rel="stylesheet" href="css/publishBook.css" />
+<link rel="stylesheet" href="css/public.css" />
+<link rel="stylesheet" type="text/css" href="iconf/iconfont.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+
+<body>
+    <div class="head">
+        <div class="area">
+            <header>
+                <ul class="head-nav">
+                    <li>
+                        <a href="#" title="网易云阅读">网易云阅读</a>
+                    </li>
+                    <li><span>|</span></li>
+                    <li>
+                        <a href="#" title="国风中文网">国风中文网</a>
+                    </li>
+                    <li><span>|</span></li>
+                    <li>
+                        <a href="#" title="采薇书院">采薇书院</a>
+                    </li>
+                    <li><span>|</span></li>
+                    <li>
+                        <a href="#" title="从电脑上导出书籍">从电脑上导出书籍</a>
+                    </li>
+                    <li><span>|</span></li>
+                    <li>
+                        <a href="#" title="公众号">公众号</a>
+                    </li>
+                    <li><span>|</span></li>
+                    <li>
+                        <a href="#" title="渠道推广平台">渠道推广平台</a>
+                    </li>
+                </ul>
+                <div class="login">
+                    <ul>
+                        <li>
+                            <a href="login.html">登陆<i class="triangle"></i></a>
+                        </li>
+                        <li><span>|</span></li>
+                        <li>
+                            <a href="register.html">注册</a>
+                        </li>
+                        <li><span>|</span></li>
+                        <li>
+                            <a href="#">举报</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="login-box" style="display:none">
+                    <div>
+                        <a href="#">关闭</a>
+                        <h4>网易邮箱登陆</h4>
+                    </div>
+                    <div></div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <section>
+        <div class="area">
+            <div class="nav-seach">
+                <div class="logo">
+                    <h1><a href="#">网易云阅读</a></h1>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search" placeholder="请输入关键字" />
+                    <ul class="showBox"></ul>
+                    <button class="btn-seach"></button>
+                </div>
+                <div class="clouds">
+                    <a href="#"><i class="iconfont icon-gouwuche"></i>购物车</a>
+                </div>
+            </div>
+            <div class="nav-nav">
+                <ul>
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="" style="color: #c9483c">出版图书</a>
+                    </li>
+                    <li>
+                        <a href="">国风中文网</a>
+                    </li>
+                    <li>
+                        <a href="">采薇书院</a>
+                    </li>
+                    <li>
+                        <a href="">排行榜</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">个人中心</a>
+                    </li>
+                    <li>
+                        <a href="">充值</a>
+                    </li>
+                    <li>
+                        <a href="">客服端</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="funav">
+                <div class="headerfunav">
+                    <ul class="f-hfn">
+                        <li><a href="">全部</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">人文社科</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">成功理智</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">小说作品</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">经济管理</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">品质生活</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">计算机</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">文学作品</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">两性感情</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">亲子少儿</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">培训考试</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">杂志期刊</a></li>
+                        <li><span class="sep">|</span></li>
+                        <li><a href="">外文外版</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 下拉出现的导航条 -->
+            <div id="hiddenNav" class="hidden">
+                <div class="area hiddo">
+                    <h2 class="hv-publish"><a href="">出版图书</a></h2>
+                    <ul class="hv-ul">
+                        <li><a href="">全部</a></li>
+                        <li><a href="">小说作品</a></li>
+                        <li><a href="">成功励志</a></li>
+                        <li><a href="">经济金融</a></li>
+                        <li><a href="">品质生活</a></li>
+                        <li><a href="">人文社科</a></li>
+                        <li><a href="">计算机</a></li>
+                        <li class="other"><a href="">其他&gt;</a></li>
+                        <li class="otherLi hidden"><a href="">文学作品</a></li>
+                        <li class="otherLi hidden"><a href="">两性感情</a></li>
+                        <li class="otherLi hidden"><a href="">亲子故事</a></li>
+                        <li class="otherLi hidden"><a href="">培训考试</a></li>
+                        <li class="otherLi hidden"><a href="">杂志期刊</a></li>
+                        <li class="otherLi hidden"><a href="">外文外版</a></li>
+                    </ul>
+                    <div class="hv-search">
+                        <div class="hv-chazhao">
+                            <form action="">
+                                <input type="text" class="hv-putin" placeholder="都挺好（姚晨、杨祐宁、彭昱畅主演）">
+                                <input type="hidden" name="type" value="">
+                                <button type="submmit">
+                                    <span></span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 主题内容 -->
+            <section class="main-con">
+                <div class="smaBanner">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/img/img1.png" title="文在演自传" /></div>
+                            <div class="swiper-slide"><img src="img/img/img2.jpg" title="老中医" /></div>
+                            <div class="swiper-slide"><img src="img/img/img3.png" title="我喜欢你，像风走八千里" /></div>
+                            <div class="swiper-slide"><img src="img/img/img4.png" title="夏末峡谷" /></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="tongzhi">
+                        <i class="iconfont icon-laba"></i>
+                        <a href="">陈坤领衔苏大强后援会？我看《都挺好》的</a>
+                        <a href="">《东宫》情人节开播，匪我思存经典原著重温</a>
+                    </div>
+                </div>
+                <!-- 主编推荐 -->
+                <div class="zhubian">
+                    <div class="left">
+                        <header>
+                            <h2>主编推荐</h2>
+                        </header>
+                        <div class="contents">
+                            <ul class="con-book">
+                                <li class="up">
+                                    <div>
+                                        <a href="" class="bookpic"><img src="img/img/book1.jpg" alt=""></a>
+                                        <h3><a href="">雨</a></h3>
+                                        <p>马来西亚华文重量级作家黄锦树首次以原貌引进大陆的作品</p>
+                                        <a href="" class="read">立即阅读&gt;</a>
+                                    </div>
+                                </li>
+                                <li class="up rt">
+                                    <div>
+                                        <a href="" class="bookpic"><img src="img/img/book2.jpg" alt=""></a>
+                                        <h3><a href="">显微镜下的大明</a></h3>
+                                        <p>马伯庸全新历史纪实作品，一本值得收藏的明朝历史书。</p>
+                                        <a href="" class="read">立即阅读&gt;</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="" class="bookpic"><img src="img/img/book3.jpg" alt=""></a>
+                                        <h3><a href="">褚时健传</a></h3>
+                                        <p>70岁创业成为中国橙王，跌倒又爬起的传奇一生</p>
+                                        <a href="" class="read">立即阅读&gt;</a>
+                                    </div>
+                                </li>
+                                <li class="rt">
+                                    <div>
+                                        <a href="" class="bookpic"><img src="img/img/book4.jpg" alt=""></a>
+                                        <h3><a href="">爱情市场： 你必须了解的性与爱的经济学</a></h3>
+                                        <p>爱情意味着某种程度上的博弈，在公开市场上，你的性与爱价值几何？</p>
+                                        <a href="" class="read">立即阅读&gt;</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right hotSale">
+                        <header>
+                            <h2>畅销榜</h2>
+                        </header>
+                        <div class="showBookBox">
+                            <ul class="showBookUl changxiaobang">
+                                <li>
+                                    <p class="hidden">
+                                        <a href=""><i>01</i>阿加莎·克里斯蒂侦探悬疑精选50册</a>
+                                    </p>
+                                    <div class="show">
+                                        <i>01</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">阿加莎·克里斯蒂侦探悬疑精选50册</a>
+                                        </h3>
+                                        <p>【英】阿加莎·克里斯蒂,【英】查尔斯·奥斯本</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>02</i>大江大河</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>02</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">大江大河</a>
+                                        </h3>
+                                        <p>阿耐</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>03</i>南风如忘怀</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>03</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">南风如我怀</a>
+                                        </h3>
+                                        <p>唐曦</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>04</i>火神</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>04</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">火神</a>
+                                        </h3>
+                                        <p>天下霸唱</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>05</i>怪奇物语：噩梦</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>05</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">怪奇物语：噩梦</a>
+                                        </h3>
+                                        <p>宁航一</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>06</i>圣母</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>06</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">圣母</a>
+                                        </h3>
+                                        <p>秋吉理香子</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>07</i>自控力</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>07</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">自控力</a>
+                                        </h3>
+                                        <p>【英】阿加莎·克里斯蒂,【英】查尔斯·奥斯本</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>08</i>影响力</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>08</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">武侠经典古龙作品大合集（套装72册）</a>
+                                        </h3>
+                                        <p>古龙</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>09</i>邓小平时代</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>09</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">邓小平时代</a>
+                                        </h3>
+                                        <p>【美】傅高亿</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>10</i>流年</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>10</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">流年</a>
+                                        </h3>
+                                        <p>水吟</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>11</i>像风一样吹过</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>11</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">如你如斯</a>
+                                        </h3>
+                                        <p>汝茹</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>12</i>三体</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>12</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">三体</a>
+                                        </h3>
+                                        <p>大刘</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>13</i>黄金原野</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>13</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book1.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">黄金原野</a>
+                                        </h3>
+                                        <p>大刘</p>
+
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="hot-checkMore">更多>>>></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 纸书推荐 -->
+                <div class="con-recommend">
+                    <header>
+                        <h2>纸书推荐 · 收藏纸张的温度</h2>
+                    </header>
+                    <div class="paperBook">
+                        <div class="ul-content pb">
+                            <ul class="pb-ul">
+                                <li>
+                                    <a href=""><img src="img/img/book5 (1).jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+                                    <a href="" class="paper-buy">购买本书</a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (2).jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+                                    <a href="" class="paper-buy">购买本书</a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (3).jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+                                    <a href="" class="paper-buy">购买本书</a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (1).jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+                                    <a href="" class="paper-buy">购买本书</a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (2).jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+                                    <a href="" class="paper-buy">购买本书</a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (3).jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+                                    <a href="" class="paper-buy">购买本书</a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (1).jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+                                    <a href="" class="paper-buy">购买本书</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 精品图书 -->
+                <div class="con-recommend jp-book">
+                    <div class="left">
+                        <header>
+                            <h2>精品图书</h2>
+                        </header>
+                        <div class="ul-content jpts">
+                            <ul class="pb-ul">
+                                <li>
+                                    <a href=""><img src="img/img/book16.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book12.jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book11.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book6.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book7.jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book15.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book13.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book11.jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book14.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book9.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <header>
+                            <h2>免费榜</h2>
+                        </header>
+                        <div class="showBookBox">
+                            <ul class="showBookUl mianfeibang clear_fix">
+                                <li>
+                                    <p class="hidden">
+                                        <a href=""><i>01</i>三国演义</a>
+                                    </p>
+                                    <div class="show">
+                                        <i>01</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">三国演义</a>
+                                        </h3>
+                                        <p>罗贯中</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>02</i>全唐诗</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>02</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book7.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">全唐诗</a>
+                                        </h3>
+                                        <p>彭定求等</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>03</i>红楼梦</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>03</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">红楼梦</a>
+                                        </h3>
+                                        <p>曹雪芹</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>04</i>水浒传</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>04</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book7.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">水浒传</a>
+                                        </h3>
+                                        <p>施耐庵</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>05</i>计生记事</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>05</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">计生记事</a>
+                                        </h3>
+                                        <p>王允阅读</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>06</i>李煜诗集</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>06</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book7.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">李煜诗集</a>
+                                        </h3>
+                                        <p>李煜</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>07</i>孙子兵法</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>07</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">孙子兵法</a>
+                                        </h3>
+                                        <p>孙子</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>08</i>天长地久</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>08</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book7.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">天长地久</a>
+                                        </h3>
+                                        <p>木木</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>09</i>古文观止</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>09</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">古文观止</a>
+                                        </h3>
+                                        <p>古文观止</p>
+
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="checkMore">更多>>>></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 独家首发 -->
+                <div class="con-recommend">
+                    <header>
+                        <h2>独家首发</h2>
+                        <a href="">更多>></a>
+                    </header>
+                    <div class="paperBook">
+                        <div class="ul-content dj-first">
+                            <ul class="pb-ul">
+                                <li>
+                                    <a href=""><img src="img/img/book5 (1).jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (2).jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (3).jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (1).jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (2).jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (3).jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (1).jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 分类阅读 -->
+                <div class="con-recommend jp-book">
+                    <div class="left">
+                        <header>
+                            <h2>分类阅读</h2>
+                        </header>
+                        <div class="ul-content jpts">
+                            <ul class="pb-ul">
+                                <li>
+                                    <a href=""><img src="img/img/book16.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (3).jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (2).jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book5 (1).jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book13.jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book12.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book10.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book8.jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book9.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book7.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <header>
+                            <h2>小说排行榜</h2>
+                        </header>
+                        <div class="showBookBox">
+                            <ul class="showBookUl fenleiyuedu">
+                                <li>
+                                    <p class="hidden">
+                                        <a href=""><i>01</i>重生之锦绣皇后</a>
+                                    </p>
+                                    <div class="show">
+                                        <i>01</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">重生之锦绣皇后</a>
+                                        </h3>
+                                        <p>罗贯中</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>02</i>平岩十二年</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>02</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book7.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">平岩十二年</a>
+                                        </h3>
+                                        <p>彭定求等</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>03</i>夺梦</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>03</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">夺梦</a>
+                                        </h3>
+                                        <p>曹雪芹</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>04</i>重生之名流巨星</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>04</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book7.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">重生之名流巨星</a>
+                                        </h3>
+                                        <p>施耐庵</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>05</i>计生记事</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>05</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">计生记事</a>
+                                        </h3>
+                                        <p>王允阅读</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>06</i>李煜诗集</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>06</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book7.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">李煜诗集</a>
+                                        </h3>
+                                        <p>李煜</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>07</i>破云</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>07</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">破云</a>
+                                        </h3>
+                                        <p>淮上</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>08</i>天长地久</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>08</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book7.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">天长地久</a>
+                                        </h3>
+                                        <p>木木</p>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href=""><i>09</i>古文观止</a>
+                                    </p>
+                                    <div class="hidden">
+                                        <i>09</i>
+
+                                        <a class="img" href="" target="_blank"><img src="img/img/book6.jpg">
+                                        </a>
+                                        <h3>
+                                            <a href="" target="_blank">古文观止</a>
+                                        </h3>
+                                        <p>古文观止</p>
+
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="checkMore">更多>>>></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 新书上架 -->
+                <div class="con-recommend">
+                    <header>
+                        <h2>新书上架</h2>
+                        <a href="">更多>></a>
+                    </header>
+                    <div class="paperBook">
+                        <div class="ul-content dj-first">
+                            <ul class="pb-ul">
+                                <li>
+                                    <a href=""><img src="img/img/book13.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book14.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book15.jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book16.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book6.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book7.jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book8.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 杂志期刊 -->
+                <div class="con-recommend">
+                    <header>
+                        <h2>杂志期刊</h2>
+                        <a href="">更多>></a>
+                    </header>
+                    <div class="paperBook">
+                        <div class="ul-content dj-first">
+                            <ul class="pb-ul">
+                                <li>
+                                    <a href=""><img src="img/img/book10.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book11.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book12.jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book11.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book11.jpg" alt=""></a>
+                                    <h3>未来简史：从智人到神人</h3>
+                                    <p>【以色列】尤瓦尔·赫拉利</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book6.jpg" alt=""></a>
+                                    <h3>皮囊</h3>
+                                    <p>蔡崇达</p>
+
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/img/book7.jpg" alt=""></a>
+                                    <h3>从1到0：开启未来商业秘密</h3>
+                                    <p>【美】布莱克·马斯特斯</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 合作专区 -->
+                <div class="con-recommend parterArea">
+                    <header>
+                        <h2>合作专区</h2>
+                        <a href="">更多>></a>
+                    </header>
+                    <div class="partnerBook">
+                        <div class="partnerList">
+                            <ul>
+                                <li class="cart"><span>上海译文出版社</span></li>
+                                <li><span>北京磨铁数盟</span></li>
+                                <li><span>博集天卷</span></li>
+                                <li><span>果麦文化</span></li>
+                                <li><span>中信出版集团</span></li>
+                                <li><span>理想国</span></li>
+                            </ul>
+                        </div>
+                        <div class="partnerShow">
+                            <div class="pts show">
+                                <div class="pts-words">
+                                    <h4>
+                                        <a href="">
+                                            <img src="img/img/shlogo.jpg" alt="">
+                                        </a>
+                                    </h4>
+                                    <p>上海译文是中国最大的综合性翻译出版社，致力于翻译编纂出版外国文学、社科、学术著作，各种双语词典和外语教学参考图书，享有良好的声誉。</p>
+                                </div>
+                                <ul class="pts-ul">
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book8.jpg" alt="">
+                                            <span>Lolita</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book9.jpg" alt="">
+                                            <span>小王子</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book10.jpg" alt="">
+                                            <span>爱迪生</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book11.jpg" alt="">
+                                            <span>撒切尔</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book12.jpg" alt="">
+                                            <span>艾宁</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pts hidden">
+                                <div class="pts-words">
+                                    <h4>
+                                        <a href="">
+                                            <img src="img/img/shlogo.jpg" alt="">
+                                        </a>
+                                    </h4>
+                                    <p>磨铁是一家综合类出版策划、发行公司，为民营书业之翘楚，
+                                        在中国出版业享有盛誉。磨铁图书的出版策划领域广泛，不乏众多经典畅销作品。</p>
+                                </div>
+                                <ul class="pts-ul">
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book2.jpg" alt="">
+                                            <span>Lolita</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book4.jpg" alt="">
+                                            <span>小王子</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book5 (1).jpg" alt="">
+                                            <span>爱迪生</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book1.jpg" alt="">
+                                            <span>撒切尔</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book12.jpg" alt="">
+                                            <span>艾宁</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pts hidden">
+                                <div class="pts-words">
+                                    <h4>
+                                        <a href="">
+                                            <img src="img/img/shlogo.jpg" alt="">
+                                        </a>
+                                    </h4>
+                                    <p>中国民营书业最具竞争力的核心企业之一，目前拥有
+                                        社科文艺、外国文学、历史文化、青春言情等优秀产品线，
+                                        在业内拥有极佳口碑及领军地位。</p>
+                                </div>
+                                <ul class="pts-ul">
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book16.jpg" alt="">
+                                            <span>Lolita</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book18.jpg" alt="">
+                                            <span>小王子</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book19.jpg" alt="">
+                                            <span>爱迪生</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book20.jpg" alt="">
+                                            <span>撒切尔</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book12.jpg" alt="">
+                                            <span>艾宁</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pts hidden">
+                                <div class="pts-words">
+                                    <h4>
+                                        <a href="">
+                                            <img src="img/img/shlogo.jpg" alt="">
+                                        </a>
+                                    </h4>
+                                    <p>果麦文化面向城市新兴中产阶层，提供图书、电影、互联网文化产
+                                        品等“更好的精神食粮”
+                                        。与作家韩寒、安妮宝贝、冯唐、严歌苓、易中天等有密切合作。</p>
+                                </div>
+                                <ul class="pts-ul">
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book1.jpg" alt="">
+                                            <span>Lolita</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book14.jpg" alt="">
+                                            <span>小王子</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book15.jpg" alt="">
+                                            <span>爱迪生</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book13.jpg" alt="">
+                                            <span>撒切尔</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book12.jpg" alt="">
+                                            <span>艾宁</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pts hidden">
+                                <div class="pts-words">
+                                    <h4>
+                                        <a href="">
+                                            <img src="img/img/shlogo.jpg" alt="">
+                                        </a>
+                                    </h4>
+                                    <p>中信出版社坚持“我们提供知识，以应对变化的世界。”的理念，
+                                        以高端优质的内容服务，多样化的内容展现形式，
+                                        为读者提供高品质阅读与视听内容，满足大众多样化的知识与文化需求。</p>
+                                </div>
+                                <ul class="pts-ul">
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book8.jpg" alt="">
+                                            <span>Lolita</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book14.jpg" alt="">
+                                            <span>小王子</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book20.jpg" alt="">
+                                            <span>爱迪生</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book19.jpg" alt="">
+                                            <span>撒切尔</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book17.jpg" alt="">
+                                            <span>艾宁</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pts hidden">
+                                <div class="pts-words">
+                                    <h4>
+                                        <a href="">
+                                            <img src="img/img/shlogo.jpg" alt="">
+                                        </a>
+                                    </h4>
+                                    <p>上海译文是中国最大的综合性翻译出版社，致力于翻译编纂出版外国文学、社科、学术著作，各种双语词典和外语教学参考图书，享有良好的声誉。</p>
+                                </div>
+                                <ul class="pts-ul">
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book8.jpg" alt="">
+                                            <span>Lolita</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book9.jpg" alt="">
+                                            <span>小王子</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book10.jpg" alt="">
+                                            <span>爱迪生</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book11.jpg" alt="">
+                                            <span>撒切尔</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/img/book12.jpg" alt="">
+                                            <span>艾宁</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+    </section>
+    <!-- 合作伙伴 -->
+    <div class="friends">
+        <div class="friendsList">
+            <h3>合作伙伴</h3>
+            <p>
+                <a href="">中南博集天卷</a>
+                <a href="">上海读客图书</a>
+                <a href="">北京磨铁数盟</a>
+                <a href="">凤凰联动</a>
+                <a href="">英雄联盟</a>
+                <a href="">北京时代华语</a>
+                <a href="">天津华文天下</a>
+                <a href="">杭州果麦文化</a>
+                <a href="">中国人民出版社</a>
+                <a href="">外联社</a>
+                <a href="">外国语教学</a>
+                <a href="">朝闻天先新闻频道</a>
+                <a href="">理想国</a>
+                <a href="">清华大学出版社</a>
+                <a href="">北京大学出版社</a>
+                <a href="">中文网</a>
+                <a href="">晋江文学城</a>
+                <a href="">长佩文学城</a>
+                <a href="">上海世纪出版</a>
+                <a href="">深圳证券</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- 公共底部 -->
+    <div class="com_foot">
+        <div class="com_footer">
+            <div class="com_footer1">
+                <p class="com_flink">
+                    <a href="">网易简介</a><span class="sep">|</span>
+                    <a href="">公司简介</a><span class="sep">|</span>
+                    <a href="">客户服务</a><span class="sep">|</span>
+                    <a href="">相关法律</a><span class="sep">|</span>
+                    <a href="">网站导航</a><span class="sep">|</span>
+                    <a href="">意见反馈</a><span class="sep">|</span>
+                    <a href="">客服电话</a><span class="sep">|</span>
+                    <a href="">帮助中心</a><span class="sep">|</span>
+                    <a href="">作者中心</a>
+                </p>
+            </div>
+            <div class="com_footer2">
+                <p>
+                    网易公司版权所有©1997-
+                    <span id="j-year">2019</span>
+                    &nbsp;&nbsp;网络出版服务许可证（总）网出证（粤）字第030号
+                    &nbsp;&nbsp;信息网络传播视听节目许可证号1908260
+                    &nbsp;&nbsp;增值电信业务经营许可证 浙B2-20160599
+                </p>
+            </div>
+            <div class="com_footer3"></div>
+        </div>
+    </div>
+    <!-- 侧边固定导航栏 -->
+    <div class="fix-right">
+        <a href="javascript:;" style="background-position-y: -100px;"></a>
+        <a href="javascript:;" style="background-position-y: -200px;"></a>
+        <a href="javascript:;" class="to-top" style="visibility: hidden;"></a>
+    </div>
+</body>
+<script src="js/Ajax.js"></script>
+<script src="js/jquery-2.1.0.js"></script>
+<script src="js/publishBook.js"></script>
+<script src="js/Jsonp.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
+<script>
+    if (document.cookie.split("=")[1] == undefined) {
+        (document.cookie).split("=")[1] = "";
+    }
+    $(".login-uName").append("欢迎用户:" + (document.cookie).split("=")[1]);
+    $(".login-uName").css("float", "left");
+    $(".login-uName").css("margin-right", "4px");
+    $(".login-bttn").css("float", "left");
+    showText.init(".search-box");
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        effect: 'fade',
+        autoplay: {
+            delay: 300,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    toTop.init();
+    shufflingIneu.init('.mianfeibang')
+    changxiaobang.init('.changxiaobang')
+    fenleiyuedu.init('.fenleiyuedu')
+    partner.init('.partnerBook')
+    hiddenOther.init('.hiddo')
+</script>
+
+</html>

@@ -61,7 +61,7 @@ img {
         .lg-hd #lg-header .lg-header-inner .lg-login-box .lg-login {
           width: 185px;
           height: 42px;
-          background: url("../images/lg-wy.png") 0 -80px no-repeat; }
+          background: url("../img/lg-wy.png") 0 -80px no-repeat; }
       .lg-hd #lg-header .lg-header-inner .link {
         position: absolute;
         bottom: 20px;
@@ -82,7 +82,7 @@ img {
   width: 100%;
   height: 440px;
   overflow: visible;
-  background: url("../images/lg-banner.jpg") no-repeat;
+  background: url("../img/lg-banner.jpg") no-repeat;
   background-position: 50% 50%; }
   .lg-ban #lg-banner {
     height: 440px;
@@ -100,13 +100,13 @@ img {
       .lg-ban #lg-banner #lg-frame .lg-frame-header {
         width: 540px;
         height: 46px;
-        background: url(../images/lg-logo-bg.png) repeat-x;
+        background: url(../img/lg-logo-bg.png) repeat-x;
         background-position: 0px -519px; }
         .lg-ban #lg-banner #lg-frame .lg-frame-header .lg-frame-logo {
           width: 152px;
           height: 46px;
           padding: 0 0 0 44px;
-          background: url(../images/lg-logo-bg.png) no-repeat;
+          background: url(../img/lg-logo-bg.png) no-repeat;
           background-position: -273px 11px;
           font-size: 18px;
           font-weight: bold;
@@ -161,7 +161,7 @@ img {
             width: 142px;
             height: 140px; }
             .lg-ban #lg-banner #lg-frame .lg-frame-content .lg-content-right ul li {
-              background: url(../images/lg-logo-bg.png);
+              background: url(../img/lg-logo-bg.png);
               width: 142px;
               height: 40px;
               margin: 0 0 10px 0;
@@ -172,7 +172,7 @@ img {
               color: #333;
               position: relative; }
               .lg-ban #lg-banner #lg-frame .lg-frame-content .lg-content-right ul a span {
-                background: url(../images/lg-logo-bg.png);
+                background: url(../img/lg-logo-bg.png);
                 position: absolute;
                 width: 20px;
                 height: 20px;
